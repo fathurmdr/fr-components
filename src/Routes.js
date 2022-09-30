@@ -1,4 +1,4 @@
-import { createBrowserRouter } from "react-router-dom";
+import { createHashRouter } from "react-router-dom";
 import LandingPage from "./pages/LandingPage";
 import DocsPage from "./pages/DocsPage";
 import SupportMe from "./pages/SupportMe";
@@ -6,8 +6,10 @@ import Sidebar from "./myComponents/Sidebar";
 import InputsPage from "./pages/Components/InputsPage";
 import CardsPage from "./pages/Components/CardsPage";
 import FootersPage from "./pages/Components/FootersPage";
+import ErrorPage from "./pages/ErrorPage";
+import ButtonPage from "./pages/Components/ButtonPage";
 
-const router = createBrowserRouter([
+const router = createHashRouter([
   {
     path: "/",
     element: <LandingPage />,
@@ -29,6 +31,10 @@ const router = createBrowserRouter([
         element: <InputsPage />,
       },
       {
+        path: "components/button",
+        element: <ButtonPage />,
+      },
+      {
         path: "components/cards",
         element: <CardsPage />,
       },
@@ -38,6 +44,7 @@ const router = createBrowserRouter([
       },
     ],
   },
+  { path: "/*", element: <ErrorPage /> },
 ]);
 
 export default router;

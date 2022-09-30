@@ -35,7 +35,7 @@ function Sidebar() {
   return (
     <>
       <SidebarHeaders />
-      <div className="mx-auto flex max-w-screen-xl items-stretch pt-14">
+      <div className="mx-auto flex max-w-screen-xl items-stretch pt-16">
         <div
           id="sidebar-container"
           className={`duration-500 ${
@@ -43,7 +43,7 @@ function Sidebar() {
           } fixed top-0 z-[51] h-full w-64 shrink-0 overflow-y-auto border bg-slate-50 duration-300 md:top-14 md:z-0 md:translate-x-0`}
         >
           <nav>
-            <h1 className="p-4 text-center font-semibold italic text-slate-800 md:hidden">
+            <h1 className="p-5 text-center font-semibold italic text-slate-800 md:hidden">
               FR Components
             </h1>
             <div className="mx-2 mt-8 mb-20">
@@ -130,6 +130,12 @@ function Sidebar() {
                       <DropdownItem
                         onClick={() => setSidebarToggle(false)}
                         setActive={setComponents1Active}
+                        href="/components/button"
+                        title="Button"
+                      />
+                      <DropdownItem
+                        onClick={() => setSidebarToggle(false)}
+                        setActive={setComponents1Active}
                         href="/components/cards"
                         title="Cards"
                       />
@@ -181,7 +187,7 @@ function Sidebar() {
           viewBox="0 0 24 24"
           strokeWidth={1.5}
           stroke="currentColor"
-          className={`absolute top-0 right-0 h-6 w-6 duration-200 ease-in-out ${
+          className={`absolute top-0 right-0 h-8 w-8 duration-200 ease-in-out ${
             !sidebarToggle && "scale-0"
           }`}
         >
@@ -197,7 +203,7 @@ function Sidebar() {
           viewBox="0 0 24 24"
           strokeWidth={1.5}
           stroke="currentColor"
-          className={`absolute top-0 right-0 h-6 w-6 duration-200 ease-in-out ${
+          className={`absolute top-0 right-0 h-8 w-8 duration-200 ease-in-out ${
             sidebarToggle && "scale-0"
           }`}
         >

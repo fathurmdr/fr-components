@@ -113,7 +113,7 @@ function ComponentContainer(props) {
         className="min-h-[280px] min-w-full max-w-full sm:flex sm:min-w-0"
       >
         <div className="h-auto w-full">
-          <div className="mx-auto mt-12 max-w-md px-4">{props.children}</div>
+          <div className="mx-auto mt-12 max-w-md px-2">{props.children}</div>
         </div>
 
         {/* size controller */}

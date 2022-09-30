@@ -9,7 +9,7 @@ const codeBlockList = {
   basicInput: `import { useState } from "react";
 import Inputs from "../../components/Inputs/Inputs";
 
-function BasicInputs() {
+function App() {
   const [basicInput, setBasicInput] = useState("");
 
   return (
@@ -27,7 +27,7 @@ function BasicInputs() {
   inputsPrefix: `import { useState } from "react";
 import Inputs from "../../components/Inputs/Inputs";
 
-function BasicInputs() {
+function App() {
   const [inputPrefix, setInputPrefix] = useState("");
 
   return (
@@ -46,7 +46,7 @@ function BasicInputs() {
   customInputs: `import { useState } from "react";
 import Inputs from "../../components/Inputs/Inputs";
 
-function BasicInputs() {
+function App() {
   const [customInput, setCustomInput] = useState("");
 
   return (
@@ -68,7 +68,7 @@ function BasicInputs() {
   moreExample: `import { useState } from "react";
 import Inputs from "../../components/Inputs/Inputs";
 
-function BasicInputs() {
+function App() {
   const [exampleInput, setExampleInput] = useState({
     url: "",
     search: "",
