@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/fr-components/static/css/main.afedaefc.css",
-    "main.js": "/fr-components/static/js/main.f767f4e9.js",
+    "main.css": "/fr-components/static/css/main.c116fb77.css",
+    "main.js": "/fr-components/static/js/main.15273f85.js",
     "react-syntax-highlighter/refractor-core-import.js": "/fr-components/static/js/react-syntax-highlighter/refractor-core-import.5a14b2b3.chunk.js",
     "react-syntax-highlighter_languages_refractor_abap.js": "/fr-components/static/js/react-syntax-highlighter_languages_refractor_abap.b832ec44.chunk.js",
     "react-syntax-highlighter_languages_refractor_actionscript.js": "/fr-components/static/js/react-syntax-highlighter_languages_refractor_actionscript.d17be5bb.chunk.js",
@@ -155,8 +155,8 @@
     "react-syntax-highlighter_languages_refractor_xquery.js": "/fr-components/static/js/react-syntax-highlighter_languages_refractor_xquery.8777162c.chunk.js",
     "react-syntax-highlighter_languages_refractor_yaml.js": "/fr-components/static/js/react-syntax-highlighter_languages_refractor_yaml.a1bf61ed.chunk.js",
     "index.html": "/fr-components/index.html",
-    "main.afedaefc.css.map": "/fr-components/static/css/main.afedaefc.css.map",
-    "main.f767f4e9.js.map": "/fr-components/static/js/main.f767f4e9.js.map",
+    "main.c116fb77.css.map": "/fr-components/static/css/main.c116fb77.css.map",
+    "main.15273f85.js.map": "/fr-components/static/js/main.15273f85.js.map",
     "refractor-core-import.5a14b2b3.chunk.js.map": "/fr-components/static/js/react-syntax-highlighter/refractor-core-import.5a14b2b3.chunk.js.map",
     "react-syntax-highlighter_languages_refractor_abap.b832ec44.chunk.js.map": "/fr-components/static/js/react-syntax-highlighter_languages_refractor_abap.b832ec44.chunk.js.map",
     "react-syntax-highlighter_languages_refractor_actionscript.d17be5bb.chunk.js.map": "/fr-components/static/js/react-syntax-highlighter_languages_refractor_actionscript.d17be5bb.chunk.js.map",
@@ -311,7 +311,7 @@
     "react-syntax-highlighter_languages_refractor_yaml.a1bf61ed.chunk.js.map": "/fr-components/static/js/react-syntax-highlighter_languages_refractor_yaml.a1bf61ed.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.afedaefc.css",
-    "static/js/main.f767f4e9.js"
+    "static/css/main.c116fb77.css",
+    "static/js/main.15273f85.js"
   ]
 }
